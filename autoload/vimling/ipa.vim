@@ -4,7 +4,7 @@ function! ToggleIPA()
 	if !g:IPAOn
 		call IPA()
 	else
-		cal IPAOff()
+		call IPAOff()
 	endif
 endfunction
 
