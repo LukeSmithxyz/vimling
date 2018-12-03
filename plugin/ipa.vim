@@ -11,83 +11,83 @@ endfunction
 function! IPA()
 	echo "IPA macros activated"
 	let g:IPAOn=1
-	imap ;nn ɲ̊
-	imap ;gn ɲ
-	imap ;ng ŋ
-	imap ;' ʔ
-	imap ;sh ʃ
-	imap ;zh ʒ
-	imap ;xi ɕ
-	imap ;zi ʑ
-	imap ;ph ɸ
-	imap ;bh β
-	imap ;th θ
-	imap ;dh ð
-	imap ;cc ç
-	imap ;jj ʝ
-	imap ;gh ɣ
-	imap ;xx χ
-	imap ;fr ʁ
-	imap ;HH ħ
-	imap ;hh ɦ
-	imap ;vv ʋ
-	imap ;er ɹ
-	imap ;fl ɾ
-	imap ;bb ʙ
-	imap ;ih ɨ
-	imap ;ii ɪ
-	imap ;eu ɯ̽
-	imap ;uu ʊ
-	imap ;uh ə
-	imap ;eh ɛ
-	imap ;oe œ
-	imap ;au ɔ
-	imap ;ae æ
-	imap ;aa ɐ
-	imap ;OE ɶ
-	imap ;ah ɑ
-	imap ;ba ɒ
+	imap ,nn ɲ̊
+	imap ,gn ɲ
+	imap ,ng ŋ
+	imap ,' ʔ
+	imap ,sh ʃ
+	imap ,zh ʒ
+	imap ,xi ɕ
+	imap ,zi ʑ
+	imap ,ph ɸ
+	imap ,bh β
+	imap ,th θ
+	imap ,dh ð
+	imap ,cc ç
+	imap ,jj ʝ
+	imap ,gh ɣ
+	imap ,xx χ
+	imap ,fr ʁ
+	imap ,HH ħ
+	imap ,hh ɦ
+	imap ,vv ʋ
+	imap ,er ɹ
+	imap ,fl ɾ
+	imap ,bb ʙ
+	imap ,ih ɨ
+	imap ,ii ɪ
+	imap ,eu ɯ̽
+	imap ,uu ʊ
+	imap ,uh ə
+	imap ,eh ɛ
+	imap ,oe œ
+	imap ,au ɔ
+	imap ,ae æ
+	imap ,aa ɐ
+	imap ,OE ɶ
+	imap ,ah ɑ
+	imap ,ba ɒ
 endfunction
 
 function! IPAOff()
 	echo "IPA macros off."
 	let g:IPAOn=0
-	iunmap ;nn
-	iunmap ;gn
-	iunmap ;ng
-	iunmap ;'
-	iunmap ;sh
-	iunmap ;zh
-	iunmap ;xi
-	iunmap ;zi
-	iunmap ;ph
-	iunmap ;bh
-	iunmap ;th
-	iunmap ;dh
-	iunmap ;cc
-	iunmap ;jj
-	iunmap ;gh
-	iunmap ;xx
-	iunmap ;fr
-	iunmap ;HH
-	iunmap ;hh
-	iunmap ;vv
-	iunmap ;er
-	iunmap ;fl
-	iunmap ;bb
-	iunmap ;ih
-	iunmap ;ii
-	iunmap ;eu
-	iunmap ;uu
-	iunmap ;uh
-	iunmap ;eh
-	iunmap ;oe
-	iunmap ;au
-	iunmap ;ae
-	iunmap ;aa
-	iunmap ;OE
-	iunmap ;ah
-	iunmap ;ba
+	iunmap ,nn
+	iunmap ,gn
+	iunmap ,ng
+	iunmap ,'
+	iunmap ,sh
+	iunmap ,zh
+	iunmap ,xi
+	iunmap ,zi
+	iunmap ,ph
+	iunmap ,bh
+	iunmap ,th
+	iunmap ,dh
+	iunmap ,cc
+	iunmap ,jj
+	iunmap ,gh
+	iunmap ,xx
+	iunmap ,fr
+	iunmap ,HH
+	iunmap ,hh
+	iunmap ,vv
+	iunmap ,er
+	iunmap ,fl
+	iunmap ,bb
+	iunmap ,ih
+	iunmap ,ii
+	iunmap ,eu
+	iunmap ,uu
+	iunmap ,uh
+	iunmap ,eh
+	iunmap ,oe
+	iunmap ,au
+	iunmap ,ae
+	iunmap ,aa
+	iunmap ,OE
+	iunmap ,ah
+	iunmap ,ba
 endfunction
 
 " As of yet unimplemented:
