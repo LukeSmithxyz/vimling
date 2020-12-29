@@ -12,7 +12,7 @@ This gives you a function `ToggleDeadKeys()` that will, as its name suggest, mak
 
 * ' gives you acute accents (á)
 * ` gives you grave accents (à)
-* ` gives you circumflex accents (â)
+* ^ gives you circumflex accents (â)
 * ~ gives you tildes (ã)
 * : gives you macrons (ā)
 * " gives you umlauts (ä)
