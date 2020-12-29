@@ -11,10 +11,13 @@ A script modeled off one on the vim wiki by Max Baker, but with more deadkeys an
 This gives you a function `ToggleDeadKeys()` that will, as its name suggest, make ', ", ~ and : into keys that can be combined with other letters to give you accents, specifically:
 
 * ' gives you acute accents (á)
-* ~ gives you tildes (ã)
 * ` gives you grave accents (à)
+* ` gives you circumflex accents (â)
+* ~ gives you tildes (ã)
 * : gives you macrons (ā)
 * " gives you umlauts (ä)
+* . gives you under dot (ḍ)
+* , gives you cedilla (ç)
 
 These will all work with most vowels and some consonants if the combination is commonly used.
 
