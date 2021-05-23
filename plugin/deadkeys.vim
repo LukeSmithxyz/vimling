@@ -143,7 +143,7 @@ function! DeadKeys()
 
 	" cedilla
 	imap ,c ç
-	imap ^C Ç
+	imap ,C Ç
 
 endfunction "deadkeys()
 
