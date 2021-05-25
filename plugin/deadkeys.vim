@@ -11,6 +11,7 @@ endfunction
 function! DeadKeys()
 	echo "Dead Keys: On"
 	let g:DeadKeysOn=1
+
 	" grave accents
 	imap `a à
 	imap `e è
@@ -128,6 +129,22 @@ function! DeadKeys()
 	imap >Z Ž
 	imap >z ž
 
+	" circumflex accents
+	imap ^a â
+	imap ^A Â
+	imap ^e ê
+	imap ^E Ê
+	imap ^i î
+	imap ^I Î
+	imap ^o ô
+	imap ^O Ô
+	imap ^u û
+	imap ^U Û
+
+	" cedilla
+	imap ,c ç
+	imap ,C Ç
+
 endfunction "deadkeys()
 
 
@@ -193,6 +210,7 @@ function! DeadKeysOff()
 	iunmap 'u
 	iunmap 'U
 	iunmap '<space>
+
 	" under dot
 	iunmap .D
 	iunmap .d
@@ -213,7 +231,7 @@ function! DeadKeysOff()
 	iunmap .T
 	iunmap .t
 
-	"tilde
+	" tilde
 	iunmap ~a
 	iunmap ~A
 	iunmap ~e
@@ -249,5 +267,21 @@ function! DeadKeysOff()
 	iunmap >v
 	iunmap >Z
 	iunmap >z
+
+	" circumflex accents
+	iunmap ^a
+	iunmap ^A
+	iunmap ^e
+	iunmap ^E
+	iunmap ^i
+	iunmap ^I
+	iunmap ^o
+	iunmap ^O
+	iunmap ^u
+	iunmap ^U
+
+	" cedilla
+	iunmap ,c
+	iunmap ,C
 
 endfunction
