@@ -119,8 +119,8 @@ function! DeadKeys()
 	imap >o ǒ
 	imap >R Ř
 	imap >r ř
-	imap >S Ṧ
-	imap >s ṧ
+	imap >S Š
+	imap >s š
 	imap >U Ǔ
 	imap >u ǔ
 	imap >V Ǚ
