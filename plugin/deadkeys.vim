@@ -141,9 +141,19 @@ function! DeadKeys()
 	imap ^u û
 	imap ^U Û
 
-	" cedilla
+	" cedilla and ogonek
 	imap ,c ç
 	imap ,C Ç
+	imap ,a ą
+	imap ,A Ą
+	imap ,e ę
+	imap ,E Ę
+	imap ,i į
+	imap ,I Į
+	imap ,u ų
+	imap ,U Ų
+	imap ,o ǫ
+	imap ,O Ǫ
 
 endfunction "deadkeys()
 
@@ -280,8 +290,18 @@ function! DeadKeysOff()
 	iunmap ^u
 	iunmap ^U
 
-	" cedilla
+	" cedilla and ogonek
 	iunmap ,c
 	iunmap ,C
+	iunmap ,a
+	iunmap ,A
+	iunmap ,e
+	iunmap ,E
+	iunmap ,i
+	iunmap ,I
+	iunmap ,u
+	iunmap ,U
+	iunmap ,o
+	iunmap ,O
 
 endfunction
