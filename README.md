@@ -17,7 +17,7 @@ This gives you a function `ToggleDeadKeys()` that will, as its name suggest, mak
 * : gives you macrons (ā)
 * " gives you umlauts (ä)
 * . gives you under dot (ḍ)
-* , gives you cedilla (ç)
+* , gives you cedilla (ç) and ogonek (ą)
 
 These will all work with most vowels and some consonants if the combination is commonly used.
 
